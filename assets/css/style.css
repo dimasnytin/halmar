@@ -1,24 +1,5 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
-
-  /**
-   * colors
-   */
 
   --red-orange-color-wheel: hsl(17, 96%, 48%);
   --middle-blue-green: hsl(167, 45%, 72%);
@@ -36,9 +17,6 @@
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
 
-  /**
-   * typography
-   */
 
   --ff-roboto: 'Roboto', sans-serif;
   --ff-mr_de_haviland: 'Mr De Haviland', cursive;
@@ -53,36 +31,48 @@
   --fw-700: 700;
   --fw-500: 500;
 
-  /**
-   * spacing
-   */
 
   --section-padding: 50px;
 
-  /**
-   * shadow
-   */
-
   --shadow: 0 0 2px hsla(0, 0%, 0%, 0.2);
 
-  /**
-   * transition
-   */
+
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease;
   --cubic-in: cubic-bezier(0.51, 0.03, 0.64, 0.28);
   --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
 
+
+  /* shopping-cart style */
+  --onyx: hsl(0, 0%, 25%);
+    --azure: hsl(219, 77%, 68%);
+    --white: hsl(0, 0%, 100%);
+    --platinum: hsl(0, 0%, 91%);
+    --gainsbore: hsl(0, 0%, 98%);
+    --red-salsa: hsl(0, 77%, 60%);
+    --dim-gray: hsl(0, 0%, 39%);
+    --davys-gray: hsl(0, 0%, 38%);
+    --spanisn-gray: hsl(0, 0%, 62%);
+    --quick-silver: hsl(0, 0%, 64%);
+  
+    --fs-28: 28px;
+    --fs-24: 24px;
+    --fs-18: 18px;
+    --fs-15: 15px;
+    --fs-14: 14px;
+  
+    --fw-5: 500;
+    --fw-6: 600;
+    --fw-7: 700;
+  
+    --px: 60px;
+    --radius: 5px;
+
 }
 
 
 
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 
 *,
 *::before,

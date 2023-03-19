@@ -24,3 +24,20 @@
   --radius: 5px;
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--ff-roboto);
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: lightcoral;
+}

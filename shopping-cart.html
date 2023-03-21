@@ -13,9 +13,36 @@
 </head>
 <body>
   
-<h1>This is shopping-cart page</h1>
 
-<!-- https://youtu.be/-gEV3znqu8E?t=277 -->
+
+  <!-- main container -->
+  <main class="container">
+
+    <h1 class="heading">
+      <ion-icon name="cart-outline">Корзина покупок</ion-icon>
+    </h1>
+
+    <div class="item-flex">
+
+      <section class="checkout">
+        <h2 class="section-heading">Детали Оплаты</h2>
+
+        <div class="payment-form">
+          <div class="payment-method">
+
+            <button class="method selected">
+              <ion-icon name="card"></ion-icon>
+
+              <span>Кредитная карта</span>
+              <ion-icon class="checkmark fill" name="checkmark-circle"></ion-icon>
+            </button>
+
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
 
 
   <script src="shopping-cart.js"></script>

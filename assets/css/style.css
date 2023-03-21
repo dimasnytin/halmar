@@ -869,29 +869,29 @@ a.card-meta-text:is(:hover, :focus) { color: var(--tan-crayola); }
   text-align: center;
 }
 
-.btn {
+.btn-shop {
   border-radius: var(--radius);
 }
 
-.btn:active {
+.btn-shop:active {
   transform: scale(0.99);
 }
 
-.btn:focus {
+.btn-shop:focus {
   color: var(--white);
   background: var(--azure);
   outline: 2px solid var(--azure);
   outline-offset: 2px;
 }
 
-.btn-primary {
+.btn-primary-shop {
   background: var(--azure);
   font-weight: var(--fw-5);
   color: var(--white);
   padding: 13px 45px;
 }
 
-.btn-primary b {
+.btn-primary-shop b {
   margin-right: 10px;
 }
 
@@ -1045,7 +1045,7 @@ a.card-meta-text:is(:hover, :focus) { color: var(--tan-crayola); }
     border-right: none;
   }
 
-  .btn-primary {
+  .btn-primary-shop {
     width: 100%;
   }
 
